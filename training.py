@@ -3,6 +3,8 @@
 author:zhangyu
 date:2021/2/24
 description:训练与预测
+特征工程参数介绍:https://confluence.geekplus.cc/pages/viewpage.action?pageId=139384343
+
 '''
 from typing import Tuple, List
 

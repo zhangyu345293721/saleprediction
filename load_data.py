@@ -46,7 +46,7 @@ def get_sale_per_week() -> pd.DataFrame:
     Returns:
         df:sale_per_day
     '''
-    df = pd.read_csv("..\\generate_data.csv", parse_dates=[1])
+    df = pd.read_csv("generate_data.csv", parse_dates=[1])
     df = df[['0CM_CDT5', '0FISCPER', 'ZPI_SVL']]
     df.columns = ["sku_id", "sale_date", "sale_qty"]
     df["sku_id"] = df.sku_id.astype(str)

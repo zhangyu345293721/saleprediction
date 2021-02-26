@@ -3,6 +3,8 @@
 author:zhangyu
 date:2021/2/24
 description:进行特征工程
+特征工程参数介绍:https://confluence.geekplus.cc/pages/viewpage.action?pageId=139384343
+
 '''
 
 import gc
